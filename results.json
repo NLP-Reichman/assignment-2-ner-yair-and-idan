@@ -1,1 +1,36 @@
-{}
+{
+  "test_link": {
+    "link": "https://colab.research.google.com/drive/1n4sbJRpELzO-WGxPL3IXyPqv7-bcHE3F?usp=sharing"
+  },
+  "test_read_data": {
+    "lengths": [
+      1750,
+      250,
+      500
+    ]
+  },
+  "test_vocab": {
+    "length": 7163,
+    "tag2id_length": 7,
+    "Spongebob": 1
+  },
+  "test_count_oov": {
+    "dev_oov": 638,
+    "test_oov": 1368
+  },
+  "test_prepare_data_loader": {
+    "lengths": [
+      110,
+      16,
+      32
+    ]
+  },
+  "test_NERNet": {
+    "f1": 0.9081757819794609,
+    "f1_wo_o": 0.7084346904562374
+  },
+  "test_glove": {
+    "f1": 0.8575988612929637,
+    "f1_wo_o": 0.5841623985931382
+  }
+}
